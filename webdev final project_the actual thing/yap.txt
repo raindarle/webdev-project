@@ -1,0 +1,31 @@
+If you have updates or probs, add lang here or i mention imong problem sa gc 
+
+homepage.html
+    - The final project is a planner. Please refer to the figma file sent in the GC for reference.
+     - Wont be using GitHub because I can't figure out how to set it up on my laptop.
+     - No name for the app pa. But we wont be using the same name sa figma file.
+
+     For CSS:
+     - You have full creative freedom to set a theme for the app
+
+     For JS:
+     - Discuss which part ang inyo himuon para way conflict
+
+     Sources:
+     Icons: https://fonts.google.com/icons
+     Fonts: https://fonts.google.com
+                https://fonts.adobe.com
+
+
+     Line 33:   
+        if user alr has an account and/or they stayed signed in, the link should be profileregistered.html, though if na figure out ninyo how to update 
+        profile page without needing to change the link mas better siguro and u can just disregard profileregistered.html.
+    Line 35 onwards:    
+        currently unfinished kay idk what it will look like and idk kung unsaon i turn to html ang naas akong utok 
+
+profileguest.html
+    Please provide some recommendations sa comments thankies
+
+    In themes (Line 28) :
+        - dark mode
+        - you can add custom themes if u want
