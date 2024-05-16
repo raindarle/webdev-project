@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark gray background */
+    color: white; /* Default text color to white */
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6A0DAD; /* Purple background */
+    padding: 10px 20px;
+}
+
+.header img {
+    height: 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Part 2 Styles */
+.headerpt2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333; /* Dark gray text */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#Date {
+    font-size: 18px;
+    color: #6A0DAD; /* Purple text */
+}
+
+#selview {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; /* Dark gray text */
+}
+
+/* Weekly View Styles */
+.Week {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    color: #333; /* Dark gray text */
+}
+
+.Week p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.Week input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .header, .headerpt2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header img, .headerpt2 select {
+        margin-bottom: 10px;
+    }
+}
